@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+.logot {
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.grafic {
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+nav {
+   margin: auto;
+   width: 900px;
+   height: 200px; 
+}
+.topnaw {
+    background-color: white;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.topnav a {
+    color: #000;
+    text-align: center;
+    padding: 15px 17px;
+    font-size: 15px;
+}
+/*.topnav a:hover {
+    border-bottom: 2px solid black;
+}
+.topnav .icon {
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    .topnav a:not(:first-child){
+        display: none;
+    }
+    .topnav a.mem{
+        float: right;
+        margin-top: -20px;
+        display: block;
+        color: black;
+    }
+    nav {
+        width: 100%;
+        height: 100px;
+    }
+}*/
+
+.menu {
+    width: 500px;
+    height: 200px;
+    /*background: orange;*/
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;    
+    background-color: rgb(126, 116, 116);
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.MacBook {
+    width: 100px;
+    height: 100px; 
+    padding: 20px;
+    text-align: center;
+    font-style: sans-serif;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.iPad {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    font-style: sans-serif;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.iPhone {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    font-style: sans-serif;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: black;
+    margin: bottom;
+    text-align: center;
+    padding-top: 25px;
+    position: fixed;
+    
+}
+.poragraf {
+    color: white;
+}
+.footer a{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.footer nav a {
+    border-bottom: 1px solid;
+}
+.social {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/*
+.social img:hover {
+    background: orange;
+    border-radius: 50%;
+}*/

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+.logot {
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.vibor {
+    width: 20px;
+    height: 20px;
+}
+.brend {
+    margin: 0;
+    width: 10px;
+    height: 5px;
+}
+.vibor {
+    width: 100px;
+    height: 100px; 
+    padding: 20px;
+    text-align: center;
+    font-style: sans-serif;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: black;
+    margin: bottom;
+    text-align: center;
+    padding-top: 25px;
+    position: fixed;
+    
+}
+.poragraf {
+    color: white;
+}
+.footer a{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.footer nav a {
+    border-bottom: 1px solid;
+}
+.social {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

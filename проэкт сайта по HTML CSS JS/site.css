@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    height: 100vh;
+    
+}
+.menu {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    background: rgb(138, 236, 10);
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.iPhons {
+    background-color: black;
+    width: 30%;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: start;
+    text-indent: justify;
+}
+.MacBook {
+    width: 30%;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: start;
+    text-indent: justify;
+}
+.iPad {
+    width: 30%;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: start;
+    text-indent: justify;
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+.contant {
+    margin: auto;
+    width: 500px;
+    height: inherit;
+    display: flex;
+    background-color: orange;
+    flex-direction: wrap;
+    justify-content: space-between;
+}
+.apple {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    border: 1px solid;
+    border-radius: 20px;
+}
